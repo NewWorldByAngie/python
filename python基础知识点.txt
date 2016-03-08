@@ -1,0 +1,5 @@
+1、退出：Control-D  或者 quit()
+2、需要GNU readline库的支持：添加了详细的交互式编辑和历史记录功能。
+3、启动解释器的方法之一：python -c command[arg]
+4、python模块也是可以执行的脚本：python -m module[arg]
+5、-i进入交互模式
