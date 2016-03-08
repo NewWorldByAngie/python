@@ -3,3 +3,25 @@
 3、启动解释器的方法之一：python -c command[arg]
 4、python模块也是可以执行的脚本：python -m module[arg]
 5、-i进入交互模式
+6、续行解释器 从提示符提示，默认为三个点...
+	错误方式：>>> the_num = 1
+			>>> print "Print the_num"
+			Print the_num
+			>>> if the_num:
+			... print "Print the_num"
+			  File "<stdin>", line 2
+			    print "Print the_num"
+			        ^
+			IndentationError: expected an indented block
+	正确方式：注意空格： 三个点会自动出来
+	>>> if the_num:
+	...    print "Print the_num"
+	... 
+	Print the_num
+	>>> 
+7、主提示符 >>>
+	playcrab@localhost ~ (/Users/playcrab)# python
+	Python 2.7.6 (default, Sep  9 2014, 15:04:36) 
+	[GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.39)] on darwin
+	Type "help", "copyright", "credits" or "license" for more information.
+	>>> 
